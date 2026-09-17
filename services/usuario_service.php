@@ -1,11 +1,13 @@
 <?php
 
-function usuarioService(){
-    echo "7. Service está  executando a regra de negocio.<br>";
 
-    return {
-        "João",
-        "Maria",
-        'Carlos'
-    };
+function usuarioservice(){
+    echo "7. service esta executando a regra de negocio.<br>";
+
+
+    return [
+        "joao",
+        "maria",
+        "carlos"
+    ];
 }

@@ -1,10 +1,8 @@
 <?php
 
 function dispatcher($rota){
-echo "5. Dispatcher decidiu qual controller deve executar.<br>";
-    if ($rota === "/usuários") {
-        usuariosController()
+    echo "5. dispatcher decidiu qual controller deve executar.<br>";
+    if($rota === "/usuarios") {
+        usuariocontroller();
     }
 }
-
-?>

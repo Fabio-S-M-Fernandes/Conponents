@@ -1,5 +1,7 @@
-<?php 
-function servidorHttp(){
-echo "1. Servidor Http recebeu a requisição.<br>";
-router();
+<?php
+
+function servidorhttp(){
+
+    echo "1. servidor HTTP recebeu a requisiçao.<br>";
+    router();
 }

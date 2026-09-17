@@ -1,10 +1,13 @@
-<?php
-function usuariosController() {
-    echo "6. Controlle recebeu a requisição. <br>";
-    $usuarios = usuarioService();
-    echo "8. Controller recebeus os dados do Service. <br>";
-    echo "Usuários encontrados:<br>";
-    foreach ($usuarios as $usuarios) {
+<?php 
+
+
+Function usuariocontroller(){
+    echo "6. controller recebeu a requisiçao.<br>";
+    $usuarios = usuarioservice();
+    echo "8 . comtroller recebeu os dados do service.<br>";
+    echo "usuarios encomtrados:<br>";
+    foreach($usuarios as $usuario){
         echo "-". $usuario . "<br>";
     }
+
 }
